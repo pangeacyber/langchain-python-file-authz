@@ -710,7 +710,7 @@ requires-dist = [
     { name = "langchain-googledrive", specifier = ">=0.3.0" },
     { name = "langchain-openai", specifier = ">=0.2.9" },
     { name = "pangea-sdk", specifier = ">=5.1.0" },
-    { name = "pydantic", specifier = ">=2.10.0" },
+    { name = "pydantic", specifier = ">=2.10.1" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
 ]
 
