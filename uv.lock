@@ -707,7 +707,7 @@ requires-dist = [
     { name = "google", specifier = ">=3.0.0" },
     { name = "langchain", specifier = ">=0.3.17" },
     { name = "langchain-community", specifier = ">=0.3.16" },
-    { name = "langchain-googledrive", specifier = ">=0.3.2" },
+    { name = "langchain-googledrive", specifier = ">=0.3.3" },
     { name = "langchain-openai", specifier = ">=0.3.3" },
     { name = "pangea-sdk", specifier = ">=5.4.0" },
     { name = "pydantic", specifier = ">=2.10.6" },
@@ -722,7 +722,7 @@ dev = [
 
 [[package]]
 name = "langchain-googledrive"
-version = "0.3.2"
+version = "0.3.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-api-python-client" },
@@ -730,10 +730,11 @@ dependencies = [
     { name = "google-auth-oauthlib" },
     { name = "langchain-community" },
     { name = "langchain-core" },
+    { name = "langchain-openai" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c3/3e/bf811bd5e0583d7a59853e18411423faa90160c1f9816623f490c1dd9426/langchain_googledrive-0.3.2.tar.gz", hash = "sha256:f171415845d2f9f98f8a0af747adc6834a51e815016aabcae9d4f31f35da8bd4", size = 27159 }
+sdist = { url = "https://files.pythonhosted.org/packages/53/ab/9a65357174928d9b76f81fb8614ff338b218bdf779428dca7c7ec0f7b7d6/langchain_googledrive-0.3.3.tar.gz", hash = "sha256:5050dcafa3e79f76e44028b20d066d0c5ec93f71b35f3ae6243a86d027a4d3eb", size = 27319 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/25/3d/999f2a1a2f7829ac09888587f5641cf978f0fcd415fad658696eb8296c3b/langchain_googledrive-0.3.2-py3-none-any.whl", hash = "sha256:1a6c911a7d74aefbda4f050c172b2fd9ca168d93b3b219087aaae6e3efff1365", size = 30167 },
+    { url = "https://files.pythonhosted.org/packages/0d/a7/5796b0c9b0d96409809df165d1d7b150d5cf09267570c1f5dcaaeb356a23/langchain_googledrive-0.3.3-py3-none-any.whl", hash = "sha256:ed05fbed580978c6186d7eb638afeb0b08d9a19cb1eb24879a11eca1b8c17e5e", size = 30333 },
 ]
 
 [[package]]
