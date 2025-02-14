@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -710,7 +711,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=0.3.18" },
     { name = "langchain-community", specifier = ">=0.3.17" },
     { name = "langchain-googledrive", specifier = ">=0.3.3" },
-    { name = "langchain-openai", specifier = ">=0.3.3" },
+    { name = "langchain-openai", specifier = ">=0.3.5" },
     { name = "pangea-sdk", specifier = ">=5.4.0" },
     { name = "pydantic", specifier = ">=2.10.6" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
@@ -724,7 +725,7 @@ dev = [
 
 [[package]]
 name = "langchain-googledrive"
-version = "0.3.3"
+version = "0.3.35"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-api-python-client" },
@@ -732,25 +733,24 @@ dependencies = [
     { name = "google-auth-oauthlib" },
     { name = "langchain-community" },
     { name = "langchain-core" },
-    { name = "langchain-openai" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/53/ab/9a65357174928d9b76f81fb8614ff338b218bdf779428dca7c7ec0f7b7d6/langchain_googledrive-0.3.3.tar.gz", hash = "sha256:5050dcafa3e79f76e44028b20d066d0c5ec93f71b35f3ae6243a86d027a4d3eb", size = 27319 }
+sdist = { url = "https://files.pythonhosted.org/packages/1d/3e/6cbe206b9078b1e6c8c8f14cd9681e1ed0d2e325cdce18400bb124f10a6b/langchain_googledrive-0.3.35.tar.gz", hash = "sha256:3649732bd9e3aeb205a0b52fd5ae51defa967928e203400341922503981a7009", size = 27298 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0d/a7/5796b0c9b0d96409809df165d1d7b150d5cf09267570c1f5dcaaeb356a23/langchain_googledrive-0.3.3-py3-none-any.whl", hash = "sha256:ed05fbed580978c6186d7eb638afeb0b08d9a19cb1eb24879a11eca1b8c17e5e", size = 30333 },
+    { url = "https://files.pythonhosted.org/packages/8c/99/2228927d956b40f180ba5b0364c5a0eed36b926f964d7168e5bf5c52aae9/langchain_googledrive-0.3.35-py3-none-any.whl", hash = "sha256:e3d07acd26ae5596109e4e393c2c3794c5c648066ea580df0cee0283446dc953", size = 30336 },
 ]
 
 [[package]]
 name = "langchain-openai"
-version = "0.3.3"
+version = "0.3.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "langchain-core" },
     { name = "openai" },
     { name = "tiktoken" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/28/07/cdd02d4e8e4bf28963f4d191af35486a8c78ac429285392ba7b168a1564c/langchain_openai-0.3.3.tar.gz", hash = "sha256:aaaee691f145d4ed3035fe23dce69e3212c8de7e208e650c1ce292960287725c", size = 48482 }
+sdist = { url = "https://files.pythonhosted.org/packages/fe/18/c7829a2ce2977d22db582d19b311d7dc3d100a51c32f5766517ee3474c26/langchain_openai-0.3.5.tar.gz", hash = "sha256:40cd5649b93b1af20a20e1cbee5a47628a77e15114a11f9b3f2ab08c7d1302bf", size = 255643 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/16/e6/5a0841a3792c2cd8e9991f76920298af01be9afffc08681bfdeae66fc20b/langchain_openai-0.3.3-py3-none-any.whl", hash = "sha256:979ef0d9eca9a34d7c39cd9d0f66d1d38f2f10a5a8c723bbc7e7a8275259c71a", size = 54511 },
+    { url = "https://files.pythonhosted.org/packages/9a/4a/18e98bb61e00f0553383fd14997a8d778999f5cf80109a74eb746a1f5919/langchain_openai-0.3.5-py3-none-any.whl", hash = "sha256:137a7514f11afeab26e5fc1eda3c2b96fbbb18a96d963ba256faecceb189ea71", size = 54982 },
 ]
 
 [[package]]
