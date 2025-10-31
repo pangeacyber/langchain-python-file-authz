@@ -12,7 +12,7 @@ dependencies = [
     "langchain-community==0.3.31",
     "langchain-googledrive==0.3.35",
     "langchain-openai==0.3.35",
-    "langchain==0.3.27",
+    "langchain==1.0.2",
     "pangea-sdk==6.9.0",
     "pydantic==2.12.3",
     "python-dotenv==1.2.1",
